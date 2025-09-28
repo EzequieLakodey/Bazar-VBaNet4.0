@@ -1,0 +1,10 @@
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Categorias.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Clientes.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Compras.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Contacto.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Productos.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Resources.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Bazar.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Proveedores.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Ventas.resources
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.vbproj.GenerateResource.Cache

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Proyecto", "Proyecto\Proyecto.vbproj", "{A1096C0F-5F80-4DAD-8D07-ABEA1896521D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProyectoBazar", "..\Bazar\ProyectoBazar\ProyectoBazar\ProyectoBazar.vbproj", "{3CDCA518-7601-4AB0-860E-C6C5A66B573A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1096C0F-5F80-4DAD-8D07-ABEA1896521D}.Debug|x86.ActiveCfg = Debug|x86
+		{A1096C0F-5F80-4DAD-8D07-ABEA1896521D}.Debug|x86.Build.0 = Debug|x86
+		{A1096C0F-5F80-4DAD-8D07-ABEA1896521D}.Release|x86.ActiveCfg = Release|x86
+		{A1096C0F-5F80-4DAD-8D07-ABEA1896521D}.Release|x86.Build.0 = Release|x86
+		{3CDCA518-7601-4AB0-860E-C6C5A66B573A}.Debug|x86.ActiveCfg = Debug|x86
+		{3CDCA518-7601-4AB0-860E-C6C5A66B573A}.Debug|x86.Build.0 = Debug|x86
+		{3CDCA518-7601-4AB0-860E-C6C5A66B573A}.Release|x86.ActiveCfg = Release|x86
+		{3CDCA518-7601-4AB0-860E-C6C5A66B573A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

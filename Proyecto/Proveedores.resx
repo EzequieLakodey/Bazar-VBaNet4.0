@@ -1,0 +1,1374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Label1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 135</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 18</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Buscar ID Proveedor</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SplitContainer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SplitContainer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SplitContainer2.Panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IDProveedorDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>ID_Proveedor</value>
+  </data>
+  <data name="IDCompraDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>ID_Compra</value>
+  </data>
+  <data name="FechaDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="SubTotalDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>SubTotal</value>
+  </data>
+  <data name="TotalDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <metadata name="FKComprasIDProveedorBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>369, 56</value>
+  </metadata>
+  <metadata name="ProveedoresBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>856, 17</value>
+  </metadata>
+  <metadata name="BazarDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 17</value>
+  </metadata>
+  <data name="ComprasDataGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ComprasDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ComprasDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>623, 309</value>
+  </data>
+  <data name="ComprasDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ComprasDataGridView.Name" xml:space="preserve">
+    <value>ComprasDataGridView</value>
+  </data>
+  <data name="&gt;&gt;ComprasDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComprasDataGridView.Parent" xml:space="preserve">
+    <value>SplitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ComprasDataGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel1.Name" xml:space="preserve">
+    <value>SplitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SplitContainer2.Panel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>ID_Proveedor</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Direccion</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>CodigoPostal</value>
+  </data>
+  <data name="ProveedoresDataGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ProveedoresDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ProveedoresDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 309</value>
+  </data>
+  <data name="ProveedoresDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresDataGridView.Name" xml:space="preserve">
+    <value>ProveedoresDataGridView</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresDataGridView.Parent" xml:space="preserve">
+    <value>SplitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresDataGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel2.Name" xml:space="preserve">
+    <value>SplitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SplitContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1274, 309</value>
+  </data>
+  <data name="SplitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>623</value>
+  </data>
+  <data name="SplitContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Name" xml:space="preserve">
+    <value>SplitContainer2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="CodigoPostalLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="CodigoPostalLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CodigoPostalLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CodigoPostalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 230</value>
+  </data>
+  <data name="CodigoPostalLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 18</value>
+  </data>
+  <data name="CodigoPostalLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="CodigoPostalLabel.Text" xml:space="preserve">
+    <value>Codigo Postal:</value>
+  </data>
+  <data name="&gt;&gt;CodigoPostalLabel.Name" xml:space="preserve">
+    <value>CodigoPostalLabel</value>
+  </data>
+  <data name="&gt;&gt;CodigoPostalLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodigoPostalLabel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;CodigoPostalLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="LocalidadLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LocalidadLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LocalidadLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LocalidadLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 261</value>
+  </data>
+  <data name="LocalidadLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 18</value>
+  </data>
+  <data name="LocalidadLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="LocalidadLabel.Text" xml:space="preserve">
+    <value>Localidad:</value>
+  </data>
+  <data name="&gt;&gt;LocalidadLabel.Name" xml:space="preserve">
+    <value>LocalidadLabel</value>
+  </data>
+  <data name="&gt;&gt;LocalidadLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LocalidadLabel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LocalidadLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="ProvinciaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ProvinciaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProvinciaLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProvinciaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 293</value>
+  </data>
+  <data name="ProvinciaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 18</value>
+  </data>
+  <data name="ProvinciaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="ProvinciaLabel.Text" xml:space="preserve">
+    <value>Provincia:</value>
+  </data>
+  <data name="&gt;&gt;ProvinciaLabel.Name" xml:space="preserve">
+    <value>ProvinciaLabel</value>
+  </data>
+  <data name="&gt;&gt;ProvinciaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProvinciaLabel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ProvinciaLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="NombreLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="NombreLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NombreLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NombreLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 100</value>
+  </data>
+  <data name="NombreLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 18</value>
+  </data>
+  <data name="NombreLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="NombreLabel.Text" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="&gt;&gt;NombreLabel.Name" xml:space="preserve">
+    <value>NombreLabel</value>
+  </data>
+  <data name="&gt;&gt;NombreLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NombreLabel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;NombreLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="TelefonoLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="TelefonoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TelefonoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TelefonoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 132</value>
+  </data>
+  <data name="TelefonoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="TelefonoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="TelefonoLabel.Text" xml:space="preserve">
+    <value>Telefono:</value>
+  </data>
+  <data name="&gt;&gt;TelefonoLabel.Name" xml:space="preserve">
+    <value>TelefonoLabel</value>
+  </data>
+  <data name="&gt;&gt;TelefonoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TelefonoLabel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;TelefonoLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="EmailLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="EmailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EmailLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EmailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 164</value>
+  </data>
+  <data name="EmailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="EmailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="EmailLabel.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Name" xml:space="preserve">
+    <value>EmailLabel</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="DireccionLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="DireccionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DireccionLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DireccionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 196</value>
+  </data>
+  <data name="DireccionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 18</value>
+  </data>
+  <data name="DireccionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="DireccionLabel.Text" xml:space="preserve">
+    <value>Direccion:</value>
+  </data>
+  <data name="&gt;&gt;DireccionLabel.Name" xml:space="preserve">
+    <value>DireccionLabel</value>
+  </data>
+  <data name="&gt;&gt;DireccionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DireccionLabel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;DireccionLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="ID_ProveedorLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ID_ProveedorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ID_ProveedorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ID_ProveedorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 69</value>
+  </data>
+  <data name="ID_ProveedorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 18</value>
+  </data>
+  <data name="ID_ProveedorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="ID_ProveedorLabel.Text" xml:space="preserve">
+    <value>ID Proveedor:</value>
+  </data>
+  <data name="&gt;&gt;ID_ProveedorLabel.Name" xml:space="preserve">
+    <value>ID_ProveedorLabel</value>
+  </data>
+  <data name="&gt;&gt;ID_ProveedorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ID_ProveedorLabel.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ID_ProveedorLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="CodigosPostalesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>249, 17</value>
+  </metadata>
+  <metadata name="CodigosPostalesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>469, 17</value>
+  </metadata>
+  <metadata name="TableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>683, 17</value>
+  </metadata>
+  <metadata name="ProveedoresTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1054, 17</value>
+  </metadata>
+  <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>23, 18</value>
+  </metadata>
+  <data name="MenuStrip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemVolver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemVolver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 34</value>
+  </data>
+  <data name="MenuItemVolver.Text" xml:space="preserve">
+    <value>🡐</value>
+  </data>
+  <data name="MenuItemClientes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemClientes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 34</value>
+  </data>
+  <data name="MenuItemClientes.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="MenuItemVentas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemVentas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 34</value>
+  </data>
+  <data name="MenuItemVentas.Text" xml:space="preserve">
+    <value>Ventas</value>
+  </data>
+  <data name="MenuItemCompras.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemCompras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 34</value>
+  </data>
+  <data name="MenuItemCompras.Text" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="MenuItemProductos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemProductos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 34</value>
+  </data>
+  <data name="MenuItemProductos.Text" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="MenuItemOtrosDirecciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 34</value>
+  </data>
+  <data name="MenuItemOtrosDirecciones.Text" xml:space="preserve">
+    <value>Direcciones</value>
+  </data>
+  <data name="MenuItemOtrosCategorias.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 34</value>
+  </data>
+  <data name="MenuItemOtrosCategorias.Text" xml:space="preserve">
+    <value> Categorias</value>
+  </data>
+  <data name="MenuItemOtros.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemOtros.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 34</value>
+  </data>
+  <data name="MenuItemOtros.Text" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="MenuItemContacto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemContacto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 34</value>
+  </data>
+  <data name="MenuItemContacto.Text" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="MenuItemSalir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 20pt, style=Bold</value>
+  </data>
+  <data name="MenuItemSalir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 34</value>
+  </data>
+  <data name="MenuItemSalir.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="MenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuStrip.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 0</value>
+  </data>
+  <data name="MenuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1274, 34</value>
+  </data>
+  <data name="MenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="MenuStrip.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Name" xml:space="preserve">
+    <value>MenuStrip</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SplitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SplitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SplitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ButtonEliminarTodos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonEliminarTodos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 12</value>
+  </data>
+  <data name="ButtonEliminarTodos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 34</value>
+  </data>
+  <data name="ButtonEliminarTodos.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="ButtonEliminarTodos.Text" xml:space="preserve">
+    <value>Eliminar Todo</value>
+  </data>
+  <data name="&gt;&gt;ButtonEliminarTodos.Name" xml:space="preserve">
+    <value>ButtonEliminarTodos</value>
+  </data>
+  <data name="&gt;&gt;ButtonEliminarTodos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonEliminarTodos.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonEliminarTodos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonActualizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonActualizar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 12</value>
+  </data>
+  <data name="ButtonActualizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 34</value>
+  </data>
+  <data name="ButtonActualizar.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="ButtonActualizar.Text" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="&gt;&gt;ButtonActualizar.Name" xml:space="preserve">
+    <value>ButtonActualizar</value>
+  </data>
+  <data name="&gt;&gt;ButtonActualizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonActualizar.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonActualizar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CodigoPostalTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 226</value>
+  </data>
+  <data name="CodigoPostalTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 26</value>
+  </data>
+  <data name="CodigoPostalTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;CodigoPostalTextBox.Name" xml:space="preserve">
+    <value>CodigoPostalTextBox</value>
+  </data>
+  <data name="&gt;&gt;CodigoPostalTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodigoPostalTextBox.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;CodigoPostalTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LocalidadTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 258</value>
+  </data>
+  <data name="LocalidadTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 26</value>
+  </data>
+  <data name="LocalidadTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;LocalidadTextBox.Name" xml:space="preserve">
+    <value>LocalidadTextBox</value>
+  </data>
+  <data name="&gt;&gt;LocalidadTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LocalidadTextBox.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LocalidadTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ProvinciaTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 290</value>
+  </data>
+  <data name="ProvinciaTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 26</value>
+  </data>
+  <data name="ProvinciaTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;ProvinciaTextBox.Name" xml:space="preserve">
+    <value>ProvinciaTextBox</value>
+  </data>
+  <data name="&gt;&gt;ProvinciaTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProvinciaTextBox.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ProvinciaTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ButtonBuscarSiguiente.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonBuscarSiguiente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 190</value>
+  </data>
+  <data name="ButtonBuscarSiguiente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 34</value>
+  </data>
+  <data name="ButtonBuscarSiguiente.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="ButtonBuscarSiguiente.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscarSiguiente.Name" xml:space="preserve">
+    <value>ButtonBuscarSiguiente</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscarSiguiente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscarSiguiente.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscarSiguiente.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ButtonBuscarAnterior.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonBuscarAnterior.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 190</value>
+  </data>
+  <data name="ButtonBuscarAnterior.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 34</value>
+  </data>
+  <data name="ButtonBuscarAnterior.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="ButtonBuscarAnterior.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscarAnterior.Name" xml:space="preserve">
+    <value>ButtonBuscarAnterior</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscarAnterior.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscarAnterior.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscarAnterior.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="NombreTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 97</value>
+  </data>
+  <data name="NombreTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 26</value>
+  </data>
+  <data name="NombreTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;NombreTextBox.Name" xml:space="preserve">
+    <value>NombreTextBox</value>
+  </data>
+  <data name="&gt;&gt;NombreTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NombreTextBox.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;NombreTextBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TelefonoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 129</value>
+  </data>
+  <data name="TelefonoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 26</value>
+  </data>
+  <data name="TelefonoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;TelefonoTextBox.Name" xml:space="preserve">
+    <value>TelefonoTextBox</value>
+  </data>
+  <data name="&gt;&gt;TelefonoTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TelefonoTextBox.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;TelefonoTextBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="EmailTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 161</value>
+  </data>
+  <data name="EmailTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 26</value>
+  </data>
+  <data name="EmailTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;EmailTextBox.Name" xml:space="preserve">
+    <value>EmailTextBox</value>
+  </data>
+  <data name="&gt;&gt;EmailTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailTextBox.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;EmailTextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="DireccionTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 193</value>
+  </data>
+  <data name="DireccionTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 26</value>
+  </data>
+  <data name="DireccionTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;DireccionTextBox.Name" xml:space="preserve">
+    <value>DireccionTextBox</value>
+  </data>
+  <data name="&gt;&gt;DireccionTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DireccionTextBox.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;DireccionTextBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="ID_ProveedorTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ID_ProveedorTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 65</value>
+  </data>
+  <data name="ID_ProveedorTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 26</value>
+  </data>
+  <data name="ID_ProveedorTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;ID_ProveedorTextBox.Name" xml:space="preserve">
+    <value>ID_ProveedorTextBox</value>
+  </data>
+  <data name="&gt;&gt;ID_ProveedorTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ID_ProveedorTextBox.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ID_ProveedorTextBox.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ButtonBuscar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonBuscar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 153</value>
+  </data>
+  <data name="ButtonBuscar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 34</value>
+  </data>
+  <data name="ButtonBuscar.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="ButtonBuscar.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscar.Name" xml:space="preserve">
+    <value>ButtonBuscar</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscar.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonBuscar.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="TextBoxConsulta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 158</value>
+  </data>
+  <data name="TextBoxConsulta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 26</value>
+  </data>
+  <data name="TextBoxConsulta.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="TextBoxConsulta.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;TextBoxConsulta.Name" xml:space="preserve">
+    <value>TextBoxConsulta</value>
+  </data>
+  <data name="&gt;&gt;TextBoxConsulta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxConsulta.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxConsulta.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ButtonEliminar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonEliminar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 12</value>
+  </data>
+  <data name="ButtonEliminar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 34</value>
+  </data>
+  <data name="ButtonEliminar.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="ButtonEliminar.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="&gt;&gt;ButtonEliminar.Name" xml:space="preserve">
+    <value>ButtonEliminar</value>
+  </data>
+  <data name="&gt;&gt;ButtonEliminar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonEliminar.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonEliminar.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="ButtonGuardar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonGuardar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 12</value>
+  </data>
+  <data name="ButtonGuardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 34</value>
+  </data>
+  <data name="ButtonGuardar.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="ButtonGuardar.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="&gt;&gt;ButtonGuardar.Name" xml:space="preserve">
+    <value>ButtonGuardar</value>
+  </data>
+  <data name="&gt;&gt;ButtonGuardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonGuardar.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ButtonGuardar.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Name" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Name" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1274, 657</value>
+  </data>
+  <data name="SplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>344</value>
+  </data>
+  <data name="SplitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Name" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1274, 657</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ComprasBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="ComprasTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>196, 56</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 18</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1274, 691</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Liberation Mono, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="&gt;&gt;IDProveedorDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>IDProveedorDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;IDProveedorDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IDCompraDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>IDCompraDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;IDCompraDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FechaDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>FechaDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;FechaDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubTotalDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>SubTotalDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;SubTotalDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>TotalDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;TotalDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FKComprasIDProveedorBindingSource.Name" xml:space="preserve">
+    <value>FKComprasIDProveedorBindingSource</value>
+  </data>
+  <data name="&gt;&gt;FKComprasIDProveedorBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresBindingSource.Name" xml:space="preserve">
+    <value>ProveedoresBindingSource</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BazarDataSet.Name" xml:space="preserve">
+    <value>BazarDataSet</value>
+  </data>
+  <data name="&gt;&gt;BazarDataSet.Type" xml:space="preserve">
+    <value>Proyecto.BazarDataSet, BazarDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodigosPostalesBindingSource.Name" xml:space="preserve">
+    <value>CodigosPostalesBindingSource</value>
+  </data>
+  <data name="&gt;&gt;CodigosPostalesBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodigosPostalesTableAdapter.Name" xml:space="preserve">
+    <value>CodigosPostalesTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;CodigosPostalesTableAdapter.Type" xml:space="preserve">
+    <value>Proyecto.BazarDataSetTableAdapters.CodigosPostalesTableAdapter, BazarDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TableAdapterManager.Name" xml:space="preserve">
+    <value>TableAdapterManager</value>
+  </data>
+  <data name="&gt;&gt;TableAdapterManager.Type" xml:space="preserve">
+    <value>Proyecto.BazarDataSetTableAdapters.TableAdapterManager, BazarDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresTableAdapter.Name" xml:space="preserve">
+    <value>ProveedoresTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresTableAdapter.Type" xml:space="preserve">
+    <value>Proyecto.BazarDataSetTableAdapters.ProveedoresTableAdapter, BazarDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;MenuItemVolver.Name" xml:space="preserve">
+    <value>MenuItemVolver</value>
+  </data>
+  <data name="&gt;&gt;MenuItemVolver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemClientes.Name" xml:space="preserve">
+    <value>MenuItemClientes</value>
+  </data>
+  <data name="&gt;&gt;MenuItemClientes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemVentas.Name" xml:space="preserve">
+    <value>MenuItemVentas</value>
+  </data>
+  <data name="&gt;&gt;MenuItemVentas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemCompras.Name" xml:space="preserve">
+    <value>MenuItemCompras</value>
+  </data>
+  <data name="&gt;&gt;MenuItemCompras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemProductos.Name" xml:space="preserve">
+    <value>MenuItemProductos</value>
+  </data>
+  <data name="&gt;&gt;MenuItemProductos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemOtros.Name" xml:space="preserve">
+    <value>MenuItemOtros</value>
+  </data>
+  <data name="&gt;&gt;MenuItemOtros.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemOtrosDirecciones.Name" xml:space="preserve">
+    <value>MenuItemOtrosDirecciones</value>
+  </data>
+  <data name="&gt;&gt;MenuItemOtrosDirecciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemOtrosCategorias.Name" xml:space="preserve">
+    <value>MenuItemOtrosCategorias</value>
+  </data>
+  <data name="&gt;&gt;MenuItemOtrosCategorias.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemContacto.Name" xml:space="preserve">
+    <value>MenuItemContacto</value>
+  </data>
+  <data name="&gt;&gt;MenuItemContacto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemSalir.Name" xml:space="preserve">
+    <value>MenuItemSalir</value>
+  </data>
+  <data name="&gt;&gt;MenuItemSalir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComprasBindingSource.Name" xml:space="preserve">
+    <value>ComprasBindingSource</value>
+  </data>
+  <data name="&gt;&gt;ComprasBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComprasTableAdapter.Name" xml:space="preserve">
+    <value>ComprasTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;ComprasTableAdapter.Type" xml:space="preserve">
+    <value>Proyecto.BazarDataSetTableAdapters.ComprasTableAdapter, BazarDataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
