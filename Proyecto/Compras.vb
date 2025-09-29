@@ -53,10 +53,6 @@
 
             Dim idProveedor As Integer = BuscarProveedor()
 
-            Me.ComprasTableAdapter.Insert()
-
-
-
         Catch ex As Exception
 
         End Try

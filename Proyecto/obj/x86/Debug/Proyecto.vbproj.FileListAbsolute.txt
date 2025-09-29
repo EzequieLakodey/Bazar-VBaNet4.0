@@ -8,3 +8,11 @@ E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Bazar.resources
 E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Proveedores.resources
 E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.Ventas.resources
 E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.vbproj.GenerateResource.Cache
+E:\Dev\Proyects\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+E:\Dev\Proyects\Proyecto\Proyecto\bin\Debug\Bazar.sdf
+E:\Dev\Proyects\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+E:\Dev\Proyects\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+E:\Dev\Proyects\Proyecto\Proyecto\bin\Debug\Proyecto.xml
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.exe
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.xml
+E:\Dev\Proyects\Proyecto\Proyecto\obj\x86\Debug\Proyecto.pdb
